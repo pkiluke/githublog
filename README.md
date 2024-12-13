@@ -1,0 +1,2 @@
+# githublog
+A simple blog
