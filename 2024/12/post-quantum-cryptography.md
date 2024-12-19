@@ -109,6 +109,8 @@ Link to [Testing section](#testing)
 - [ ] task item #2
 - [x] completed task item
 
+https://github.com/pkiluke/cryptohack/blob/e41b03304de160091481bdd5985eab4723edefc4/symmetric/confusion-through-substitution/solution.py#L29-L31
+
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
 This is a second line.
