@@ -1,12 +1,35 @@
 # Introduction
 Welcome dear readers,
 
-[to be added]
+Cryptography is the mathematical method of protecting confidentiality and integrity of data that’s been deeply embedded
+into the world’s digital society at large since 1970s. For over 50 years RSA, ECC and DH have been at the pinnacle of
+commercial cryptography based on mathematical problems considered intractable by the computational resources at the
+time.
+In 1980s and 1990s scientists and academics started proposing combining computer science (classical computers, bits) and
+quantum mechanics (quantum computers, qubits).
+In and around the late 2010s the industry and academy started pursuing the engineering efforts of PQC (Post-Quantum
+Cryptography) in slowly developing and standardizing algorithms to resist the quantum computers.
+Today, we will talk about post-quantum cryptography, what it is and what challenges it brings.
 
 Enjoy the reading!
 
 # The contents
 [to be added]
+
+Quantum computing is a type of computing paradigm that utilizes the principles of quantum mechanics to process
+information. Quantum computers, which are still in the experimental and early development stages, have the potential to
+solve certain mathematical problems much faster than classical computers.
+These mathematical problems include integer factorization which forms the basis for RSA and discrete logarithm problem
+which forms the basis for ECC (Elliptic Curve Cryptography) and DH (Diffie-Hellman)
+
+Some of these problems include factoring large integers and solving discrete logarithm problems, which are the basis for
+many commonly used encryption schemes, respectively RSA and ECC. The concern with quantum computers is that they could
+break many of the encryption methods currently in use, making data and communication vulnerable to eavesdropping and
+unauthorized access.
+
+Post-Quantum Cryptography (PQC) is a new generation of cryptographic algorithms and techniques designed to resist
+attacks from quantum computers.
+
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
@@ -14,6 +37,7 @@ Enjoy the reading!
     - is it urgent to migrate to PQC?
     - cryptographic assets managed by vendors
     - demand PQC readiness from vendors
+    - establish as much of a cryptographic agility as possible when revising existing cryptographic infrastructure(s)
 - Planning
 - Execution
 
