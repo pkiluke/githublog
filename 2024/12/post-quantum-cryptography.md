@@ -10,7 +10,10 @@ Enjoy the reading!
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
-  - conduct (quantum) risk assessment (is it urgent to migrate to PQC?)
+  - conduct (quantum) risk assessment
+    - is it urgent to migrate to PQC?
+    - cryptographic assets managed by vendors
+    - demand PQC readiness from vendors
 - Planning
 - Execution
 
