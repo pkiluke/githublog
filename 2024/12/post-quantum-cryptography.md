@@ -36,6 +36,10 @@ git commit
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
 
+| Library | Stateful DSA | Stateless DSA | KEM | Hybrid | Certification |
+| --- | --- | --- | --- | --- | --- |
+| Bouncy Castle | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+
 ```python
 def add_round(s, k):
     # state2 = sum(s, [])
@@ -108,8 +112,6 @@ Link to [Testing section](#testing)
 - [ ] task item #1
 - [ ] task item #2
 - [x] completed task item
-
-https://github.com/pkiluke/cryptohack/blob/e41b03304de160091481bdd5985eab4723edefc4/symmetric/confusion-through-substitution/solution.py?plain=1#L29-L31
 
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
