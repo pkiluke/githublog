@@ -101,6 +101,13 @@ Link to [Example 1 section](#example-1)
 
 Link to [Testing section](#testing)
 
+1. First list item
+    - First nested list item
+        - Second nested list item
+
+- [] task item #1
+- [] task item #2
+- [x] completed task item
 
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
