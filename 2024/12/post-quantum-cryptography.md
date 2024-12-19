@@ -81,6 +81,10 @@ A<sub>c</sub>
 A<sup>c</sup>
 <ins>ahoj</ins>
 
+> Tohle je kvotace
+ 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
 This is a second line.
