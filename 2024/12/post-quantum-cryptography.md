@@ -15,6 +15,9 @@ Enjoy the reading!
 
 # The contents
 [to be added]
+Let's start with a simple explanation of the "quantum" terms.
+
+Quantum computing
 
 Quantum computing is a type of computing paradigm that utilizes the principles of quantum mechanics to process
 information. Quantum computers, which are still in the experimental and early development stages, have the potential to
@@ -74,6 +77,14 @@ git commit
 | Crypto library | Stateful DSA | Stateless DSA | KEM | Hybrid | Certification |
 |----------------| --- | --- | --- | --- | --- |
 | Bouncy Castle  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+
+| Algorithm | Key size [bits] | Security strength [bits] |
+|----|-----------------|--------------------------|
+| DH | 2048            | 112                      |
+| DH | 3072            | 128                      |
+| ECC | 224-255         | 112                      |
+| ECC | 256-383         | 128                      |
+| ECC | 384-511         | 192                      |
 
 ```python
 def add_round(s, k):
