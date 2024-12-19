@@ -83,7 +83,13 @@ A<sup>c</sup>
 
 > Tohle je kvotace
  
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+# Example 1
+## Example 2
+### Example 3
+
+Link to [Example 1](#example-1)
+
+
 
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
