@@ -78,7 +78,7 @@ git commit
 |----------------| --- | --- | --- | --- | --- |
 | Bouncy Castle  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-|         Algorithm          |  Key size [bits]  | Security strength [bits]<br/>on classical computer |
+|         Algorithm          |  Key size [bits]  | Security strength<br/>on classical computer [bits] |
 |:--------------------------:|:-----------------:|:--------------------------------------------------:|
 |  Diffie-Hellman (DH), RSA  |       2048        |                        112                         |
 |  Diffie-Hellman (DH), RSA  |       3072        |                        128                         |
