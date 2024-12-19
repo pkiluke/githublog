@@ -72,6 +72,15 @@ You can add an image or a code block, too.
 
 </details>
 
+**ahoj**
+*ahoj*
+~~ahoj~~
+_ahoj_
+__ahoj__
+A<sub>c</sub>
+A<sup>c</sup>
+<ins>ahoj</ins>
+
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
 This is a second line.
