@@ -105,8 +105,8 @@ Link to [Testing section](#testing)
     - First nested list item
         - Second nested list item
 
-- [] task item #1
-- [] task item #2
+- [ ] task item #1
+- [ ] task item #2
 - [x] completed task item
 
 [^1]: My reference.
