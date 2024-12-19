@@ -1,14 +1,14 @@
-<div align="center">
-<img src="https://github.com/pkiluke/ransomware-article/raw/master/images/bg.jfif"/>
-</div>
+# Introduction
+Welcome dear readers,
+As architects we guide enterprise change. A few examples of an enterprise change could be introducing a new technology,
+migrating a business application to the cloud, changing a business process, mergers & acquisitions or decommissioning an
+existing process and/or technology. To properly guide and document an enterprise change, architects produce architecture
+artifacts such as policies, standards, guidelines, best practices documents, architecture diagrams, reference
+architectures and architecture designs. Because there are different types of architects and different levels of
+architecture the architecture artifacts differ in the level of detail and the audience they are aimed at.
+Today, we will talk about one of the core architecture artifacts - architecture design.
+Enjoy the reading!
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
-</picture>
-
-## Testing
 Some basic Git commands are:
 ```
 git status
@@ -36,9 +36,9 @@ git commit
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
 
-| Library | Stateful DSA | Stateless DSA | KEM | Hybrid | Certification |
-| --- | --- | --- | --- | --- | --- |
-| Bouncy Castle | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Crypto library | Stateful DSA | Stateless DSA | KEM | Hybrid | Certification |
+|----------------| --- | --- | --- | --- | --- |
+| Bouncy Castle  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 ```python
 def add_round(s, k):
