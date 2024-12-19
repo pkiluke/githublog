@@ -42,3 +42,5 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+This is a link to [Google website](https://www.google.com)
