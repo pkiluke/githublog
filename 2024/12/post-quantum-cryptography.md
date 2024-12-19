@@ -87,8 +87,9 @@ A<sup>c</sup>
 ## Example 2
 ### Example 3
 
-Link to [Example 1](#example-1)
-Linke to [Testing](#testing)
+Link to [Example 1 section](#example-1)
+
+Link to [Testing section](#testing)
 
 
 [^1]: My reference.
