@@ -1,13 +1,12 @@
 # Introduction
 Welcome dear readers,
-As architects we guide enterprise change. A few examples of an enterprise change could be introducing a new technology,
-migrating a business application to the cloud, changing a business process, mergers & acquisitions or decommissioning an
-existing process and/or technology. To properly guide and document an enterprise change, architects produce architecture
-artifacts such as policies, standards, guidelines, best practices documents, architecture diagrams, reference
-architectures and architecture designs. Because there are different types of architects and different levels of
-architecture the architecture artifacts differ in the level of detail and the audience they are aimed at.
-Today, we will talk about one of the core architecture artifacts - architecture design.
+
+[to be added]
+
 Enjoy the reading!
+
+# Conclusion
+[to be added]
 
 Some basic Git commands are:
 ```
