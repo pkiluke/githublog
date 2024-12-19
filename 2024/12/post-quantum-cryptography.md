@@ -78,13 +78,16 @@ git commit
 |----------------| --- | --- | --- | --- | --- |
 | Bouncy Castle  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
-|         Algorithm          |  Key size [bits]  | Security strength<br/>on classical computer [bits] |
-|:--------------------------:|:-----------------:|:--------------------------------------------------:|
-|  Diffie-Hellman (DH), RSA  |       2048        |                        112                         |
-|  Diffie-Hellman (DH), RSA  |       3072        |                        128                         |
-|            ECC             |      224-255      |                        112                         |
-|            ECC             |      256-383      |                        128                         |
-|            ECC             |      384-511      |                        192                         |
+| Algorithm | Key size [bits] | Security strength<br/>on classical computer [bits] |
+|:---------:|:---------------:|:--------------------------------------------------:|
+|  DH, RSA  |      2048       |                        112                         |
+|  DH, RSA  |      3072       |                        128                         |
+|    ECC    |     224-255     |                        112                         |
+|    ECC    |     256-383     |                        128                         |
+|    ECC    |     384-511     |                        192                         |
+| ECC |   $\geq 512$    | 256 |
+| AES |       128       |                        128                         |
+| AES |       256       |                        256                         |
 
 ```python
 def add_round(s, k):
