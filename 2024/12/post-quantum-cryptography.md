@@ -8,6 +8,8 @@ Enjoy the reading!
 # The contents
 [to be added]
 - Quantum vulnerability diagnosis
+  - inventory of cryptographic primitives and protocols
+  - identify data and communication channels protected
 - Planning
 - Execution
 
