@@ -56,7 +56,9 @@ This sentence uses `$` and `$` delimiters to show math inline: $`\sqrt{3x-1}+(1+
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
-`rgb(9, 105, 218)`
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
 [^1]: My reference.
 [^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
