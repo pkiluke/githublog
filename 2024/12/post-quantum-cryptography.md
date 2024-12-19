@@ -26,7 +26,7 @@ git commit
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
 
-```
+```python
 def add_round(s, k):
     # state2 = sum(s, [])
     # key2 = sum(k, [])
