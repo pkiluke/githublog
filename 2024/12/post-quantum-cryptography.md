@@ -26,6 +26,11 @@ In general, the higher the security level the more secure the encryption, see be
 |    AES-128    |     128     |                        128                         |                        **64**                         |
 |    AES-256    |     256     |                        256                         |                        **128**                         |
 
+In the context of quantum computing, there are two quantum algorithms and two categories of conventional cryptography,
+
+- Grover's algorithm breaks symmetric cryptography
+- Shor's algorithm breaks asymmetric cryptography
+
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
