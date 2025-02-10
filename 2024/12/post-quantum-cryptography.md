@@ -105,7 +105,7 @@ A. Preparing for the migration
 
 B. Planning the migration
 - When to start the migration
-    - Mosca's inequality: X+Y < Z; X = how long must the data remain secure, Y = time needed to migrate to PQC, Z = when will CRQC become available; the closer X+Y is to Z the more urgent is the migration, if X+Y > Z then the data asset is already vulnerable to CRQC
+    - **Mosca's inequality**: X+Y < Z; X = how long must the data remain secure, Y = time needed to migrate to PQC, Z = when will CRQC become available; the closer X+Y is to Z the more urgent is the migration, if X+Y > Z then the data asset is already vulnerable to CRQC
 - Advice on migration planning
     - Decide if cryptographic control must be replaced and what should it be replaced with
     - Decide order in which to migrate the data asset - confidentiality → integrity or integrity → confidentiality
