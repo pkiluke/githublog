@@ -90,18 +90,18 @@ A. Preparing for the migration
     - Create an exhaustive detailed list of the use of cryptography, both hardware and software
     - Update cryptography policies & standards
     - Define a strategy for cryptographic discovery (objective, scope, methodology, reporting, review)
-- Inventory of all data assets (only a subset of data attributes)
+- **Inventory of all data assets (only a subset of data attributes)**
     - State of the data asset (data at-rest, data in-transit, data in-use)
     - Location of the data asset (physical and logical)
     - Value of the data asset (from the perspective of confidentiality, integrity and availability)
     - Classification of the data asset
     - Risk assessment for each data asset
-- Identify the dependencies in the cryptography supply-chain
+- **Identify the dependencies in the cryptography supply-chain**
     - List cryptography hardware and software products supplied by external vendors
     - Maintain up to date vendor contact information
     - Review vendor contracts
     - Maintain communication with vendors on the progress of PQC in their respective products
-- Risk assessment
+- **Risk assessment**
     - Assess weakness to CRQC
     - Assess impact and determine impact score
     - Assess migration effort to PQC
