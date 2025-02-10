@@ -147,11 +147,11 @@ We might be a decade or two away from a practical CRQC, but the market moves for
 # Conclusion
 Besides the advancement by companies like Google, Microsoft, Amazon, Cloudflare, IBM, there are sector-specific legislations such as,
 
-- Digital Operational Resilience Act (DORA) - requires financial institutes to deploy “leading practices and standards” in cryptography
-- Health Insurance Portability and Accountability Act (HIPAA) - mandates the healthcare industry to safeguard patient records, for instance by deploying appropriate cryptographic techniques
-- European Electronic Communications Code (EECC) - regulates electronic communication networks in the EU and, for instance, requires the use of strong cryptography to minimize the impact of security incidents
-- Network and Information Systems (NIS) - the successor to NIS, NIS2, does specify the obligation to deploy proportional cryptographic measures, taking into account both an organization's exposure to risks and the state-of-the-art in cryptography
-- Commercial National Security Algorithm Suite (CNSA) - requires a specific set of cryptographic algorithms to be used for protecting US national security systems (NSS). CNSA 2.0 specifies four quantum-resistant public-key algorithms ML-KEM, ML-DSA, XMSS and LSS
+- **Digital Operational Resilience Act (DORA)** - requires financial institutes to deploy “leading practices and standards” in cryptography
+- **Health Insurance Portability and Accountability Act (HIPAA)** - mandates the healthcare industry to safeguard patient records, for instance by deploying appropriate cryptographic techniques
+- **European Electronic Communications Code (EECC)** - regulates electronic communication networks in the EU and, for instance, requires the use of strong cryptography to minimize the impact of security incidents
+- **Network and Information Systems (NIS)** - the successor to NIS, NIS2, does specify the obligation to deploy proportional cryptographic measures, taking into account both an organization's exposure to risks and the state-of-the-art in cryptography
+- **Commercial National Security Algorithm Suite (CNSA)** - requires a specific set of cryptographic algorithms to be used for protecting US national security systems (NSS). CNSA 2.0 specifies four quantum-resistant public-key algorithms ML-KEM, ML-DSA, XMSS and LSS
 
 there are standardization bodies such as **ISO/IEC**, **IETF**, **ETSI** developing and updating standards to mandate the use of state-of-the-art cryptography and there are governments around the world including the **EU Commission**, **Germany (BSI)**, **France (ANSSI)**, **Netherlands**, **the UK (UK-NCSC, GCHQ)** and **USA** all pushing for the adoption of PQC.
 
