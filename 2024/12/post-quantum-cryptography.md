@@ -144,19 +144,25 @@ We might be a decade or two away from a practical CRQC, but the market moves for
     - The state of the post-quantum Internet
     - A look at the latest post-quantum signature standardization candidates
 
-- Quantum vulnerability diagnosis
-  - inventory of cryptographic primitives and protocols
-  - identify data and communication channels protected
-  - conduct (quantum) risk assessment
-    - is it urgent to migrate to PQC?
-    - cryptographic assets managed by vendors
-    - demand PQC readiness from vendors
-    - establish as much of a cryptographic agility as possible when revising existing cryptographic infrastructure(s)
-- Planning
-- Execution
-
 # Conclusion
-[to be added]
+Besides the advancement by companies like Google, Microsoft, Amazon, Cloudflare, IBM, there are sector-specific legislations such as,
+
+- Digital Operational Resilience Act (DORA) - requires financial institutes to deploy “leading practices and standards” in cryptography
+- Health Insurance Portability and Accountability Act (HIPAA) - mandates the healthcare industry to safeguard patient records, for instance by deploying appropriate cryptographic techniques
+- European Electronic Communications Code (EECC) - regulates electronic communication networks in the EU and, for instance, requires the use of strong cryptography to minimize the impact of security incidents
+- Network and Information Systems (NIS) - the successor to NIS, NIS2, does specify the obligation to deploy proportional cryptographic measures, taking into account both an organization's exposure to risks and the state-of-the-art in cryptography
+- Commercial National Security Algorithm Suite (CNSA) - requires a specific set of cryptographic algorithms to be used for protecting US national security systems (NSS). CNSA 2.0 specifies four quantum-resistant public-key algorithms ML-KEM, ML-DSA, XMSS and LSS
+
+there are standardization bodies such as ISO/IEC, IETF, ETSI developing and updating standards to mandate the use of state-of-the-art cryptography and there are governments around the world including the EU Commission, Germany (BSI), France (ANSSI), Netherlands, the UK (UK-NCSC, GCHQ) and USA all pushing for the adoption of PQC.
+
+In January 2025, the US government (Biden administration) has released the Executive Order on Strengthening and Promoting Innovation in the Nation’s Cybersecurity that states,
+
+> (iii)  Agencies shall implement PQC key establishment or hybrid key establishment including a PQC algorithm as soon as practicable upon support being provided by network security products and services already deployed in their network architectures.
+
+> (iv)   Within 90 days of the date of this order, the Secretary of State and the Secretary of Commerce, acting through the Director of NIST and the Under Secretary for International Trade, shall identify and engage foreign governments and industry groups in key countries to encourage their transition to PQC algorithms standardized by NIST.the US government is saying US government agencies and their allies need to be moving to post-quantum cryptography (PQC) as soon as possible.
+
+> (i)    Within 180 days of the date of this order, the Secretary of Homeland Security, acting through the Director of CISA, shall release and thereafter regularly update a list of product categories in which products that support post-quantum cryptography (PQC) are widely available.
+
 
 Some basic Git commands are:
 ```
