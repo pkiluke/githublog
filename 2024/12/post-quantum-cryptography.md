@@ -5,25 +5,18 @@ Today, I will introduce the foundations of [post-quantum cryptography](https://e
 
 Enjoy the reading!
 
-# The contents
-[to be added]
-Let's start with a simple explanation of the "quantum" terms.
+# A paradigm that breaks cryptography
+Quantum computing is a type of computing paradigm that utilizes the principles of quantum mechanics to process information. Quantum computers or more specifically cryptographically relevant quantum computers (hereafter referred to as CRQC), albeit still in the experimental and early development stages, have the potential to solve certain mathematical problems much faster than conventional computers.
 
-Quantum computing
+In order to break conventional cryptography, you need a quantum computer (CRQC) with enough qubits and not only that, but with enough stable qubits. Quantum computers are extremely susceptible to thermal and electromagnetic interference (called decoherence) that results in high error rate (causing instability).
 
-Quantum computing is a type of computing paradigm that utilizes the principles of quantum mechanics to process
-information. Quantum computers, which are still in the experimental and early development stages, have the potential to
-solve certain mathematical problems much faster than classical computers.
-These mathematical problems include integer factorization which forms the basis for RSA and discrete logarithm problem
-which forms the basis for ECC (Elliptic Curve Cryptography) and DH (Diffie-Hellman)
+To put the security of conventional cryptography and the chaos in PQC in perspective, as of 2025, there are ~10 different technologies how to build a quantum computer, there are quantum computers with ~100-1000 qubits and in order to break RSA-2048, according to the available information you need 300 or maybe 1000 or maybe 4000 qubits.
 
-Some of these problems include factoring large integers and solving discrete logarithm problems, which are the basis for
-many commonly used encryption schemes, respectively RSA and ECC. The concern with quantum computers is that they could
-break many of the encryption methods currently in use, making data and communication vulnerable to eavesdropping and
-unauthorized access.
+As mentioned above, CRQC can solve certain mathematical problems much faster than conventional computers, these mathematical problems include [factoring large numbers](https://en.wikipedia.org/wiki/Integer_factorization) (RSA) and solving [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problems (Diffie-Hellman, ECC), which form the basis for many encryption schemes currently used today.
 
-Post-Quantum Cryptography (PQC) is a new generation of cryptographic algorithms and techniques designed to resist
-attacks from quantum computers.
+In simple terms, the security of a cryptographic scheme (RSA, ECC, AES) is expressed as a [security level](https://en.wikipedia.org/wiki/Security_level) in bits, the security level determines how many operations the attacker has to perform to break the encryption, therefore a security level of 112 means the attacker needs to perform 2112 operations to break the encryption. Whether a single operation is adding two numbers together or something more advanced is beyond the scope of the article.
+
+In general, the higher the security level the more secure the encryption, see below,
 
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
