@@ -70,7 +70,7 @@ The following lists the main guiding principles, risks and pain points influenci
 
 | Scheme | Public key (pk) [bytes] | Signature (sig) [bytes] | Public key + signature<br/>[bytes] | Sign [CPU cycles] | Verify [CPU cycles] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|  RSA-2048 |   272    |   256     |   528     |   27m         |   45k       |
+|  RSA-2k |   272    |   256     |   528     |   27m         |   45k       |
 |  Ed25519  |   64     |   64      |   96      |   42k         |   130k      |
 |  ML-DSA   |   1k-2k  |   2k-4k   |   3k-7k   |   333k-642k   |   118k-279k |
 |  SLH-DSA  |   32-64  |   7k-49k  |   7k-49k  |   239m-7000m  |   4m-19m    |
