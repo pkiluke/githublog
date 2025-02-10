@@ -85,7 +85,7 @@ The following is the simplified version of the PQC migration (call it a roadmap)
 
 The PQC migration comes down to three parts, the preparation, the planning and the execution
 
-A. <ins>Preparing for the migration</ins>
+<ins>A. Preparing for the migration</ins>
 - **Inventory of all cryptographic assets used in the enterprise**
     - Create an exhaustive detailed list of the use of cryptography, both hardware and software
     - Update cryptography policies & standards
