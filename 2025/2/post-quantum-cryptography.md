@@ -107,7 +107,7 @@ The PQC migration comes down to three parts, the preparation, the planning and t
     - Assess migration effort to PQC
     - Compute the risk score
 
-B. Planning the migration
+<ins>B. Planning the migration</ins>
 - **When to start the migration**
     - **Mosca's inequality**: X+Y < Z; X = how long must the data remain secure, Y = time needed to migrate to PQC, Z = when will CRQC become available; the closer X+Y is to Z the more urgent is the migration, if X+Y > Z then the data asset is already vulnerable to CRQC
 - **Advice on migration planning**
@@ -117,7 +117,7 @@ B. Planning the migration
     - Cost estimation
     - Resource allocation
 
-C. Executing the migration
+<ins>C. Executing the migration</ins>
 - **Migration of symmetric cryptography**
     - No major effort is expected as symmetric cryptography is not considered vulnerable to CRQC
 - **Migration of asymmetric cryptography in a hybrid deployment**
