@@ -68,12 +68,12 @@ The following lists the main guiding principles, risks and pain points influenci
 - **Performance** and **cost** will have a major impact on the migration. As you can see in the table below, the size of cryptographic keys and signatures of PQC algorithms (ML-DSA, SLH-DSA) is many times larger than those of conventional cryptography (RSA, ECC) which will have storage and cost implications on the systems and services charged for egress traffic (such as cloud) and for devices with limited storage, the size will also have impact on network optimization and fragmentation (exceeding the size of the MTU), signing and verification operations (measured in CPU cycles) is also much larger for PQC algorithms which will have impact on performance-constrained devices such as those used in OT. However, the performance metrics (sign, verify) should be taken with a grain of salt as they are subject to optimization and further development in the PQC space.
 - **Cryptographic agility** refers to the ability to adapt to risks surrounding cryptography with minimal effort, structuring technology, processes and policies such that cryptography can be used in efficient manner, cryptography can be updated, changed or completely replaced with minimal effort and minimal consequences such as a downtime.
 
-| Scheme | Public key (pk) [bytes] | Signature (sig) [bytes] | Public key + signature<br/>[bytes] |
-|:---------:|:--------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
-|  RSA-2048 |   272    |   256     |   528     |
-|  Ed25519  |   64     |   64      |   96      |
-|  ML-DSA   |   1k-2k  |   2k-4k   |   3k-7k   |
-|  SLH-DSA  |   32-64  |   7k-49k  |   7k-49k  |
+| Scheme | Public key (pk) [bytes] | Signature (sig) [bytes] | Public key + signature<br/>[bytes] | Sign [CPU cycles] | Verify [CPU cycles] |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|  RSA-2048 |   272    |   256     |   528     |   27m         |   45k       |
+|  Ed25519  |   64     |   64      |   96      |   42k         |   130k      |
+|  ML-DSA   |   1k-2k  |   2k-4k   |   3k-7k   |   333k-642k   |   118k-279k |
+|  SLH-DSA  |   32-64  |   7k-49k  |   7k-49k  |   239m-7000m  |   4m-19m    |
 
 
 - Quantum vulnerability diagnosis
