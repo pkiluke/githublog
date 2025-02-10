@@ -1,3 +1,7 @@
+<div align="center">
+<img src="https://github.com/pkiluke/publish/raw/master/ransomware/images/bg.jfif"/>
+</div>
+
 # Introduction
 Welcome dear readers,
 
