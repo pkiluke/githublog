@@ -70,10 +70,10 @@ The following lists the main guiding principles, risks and pain points influenci
 
 | Scheme | Public key (pk) [bytes] | Signature (sig) [bytes] | Public key + signature<br/>[bytes] |
 |:---------:|:--------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
-|  RSA-2048 |   272    |                        112                         |           $${\color{red}0}$$         |
-|  Ed25519  |   64     |                        128                         |                        $${\color{red}0}$$            |
-|  ML-DSA   |   1k-2k  |                        192                         |                        $${\color{red}0}$$           |
-|  SLH-DSA  |   32-64  |                        128                         |                        **64**                         |
+|  RSA-2048 |   272    |   256     |   528     |
+|  Ed25519  |   64     |   64      |   96      |
+|  ML-DSA   |   1k-2k  |   2k-4k   |   3k-7k   |
+|  SLH-DSA  |   32-64  |   7k-49k  |   7k-49k  |
 
 
 - Quantum vulnerability diagnosis
