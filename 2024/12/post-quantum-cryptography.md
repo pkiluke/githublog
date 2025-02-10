@@ -75,7 +75,7 @@ The following lists the main guiding principles, risks and pain points influenci
 |  ML-DSA   |   1k-2k  |   2k-4k   |   3k-7k   |   333k-642k   |   118k-279k |
 |  SLH-DSA  |   32-64  |   7k-49k  |   7k-49k  |   239m-7000m  |   4m-19m    |
 
-For more performance metrics, please check Post-Quantum signatures zoo.
+For more performance metrics, please check the [Post-Quantum signatures zoo](https://pqshield.github.io/nist-sigs-zoo/).
 
 The following is the simplified version of the PQC migration (call it a roadmap).
 
