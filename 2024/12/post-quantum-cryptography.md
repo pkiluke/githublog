@@ -52,6 +52,22 @@ From the perspective of risk, the risk of quantum computing is not on the CISO r
 
 The following lists the main guiding principles, risks and pain points influencing the migration to PQC.
 
+- Store-now-decrypt-later or harvest-now-decrypt-later is a method of surveillance where the data protected by cryptographic controls is collected and stored until such time when a sufficiently powerful CRQC becomes available to decrypt it
+- Legacy and long-lived systems - There are many challenges with legacy and long-lived systems (such as critical infrastructure or OT). Legacy systems suffer from obsolete hardware and software incompatible with PQC algorithms while long-lived systems suffer from constrained-performance (hardware not powerful enough) and difficulty, if not impossibility, to replace the hardware post-deployment
+- Complexity of cryptographic migration - Updating or replacing cryptographic infrastructure with PQC is a complex and time-consuming activity and depending on the size of the enterprise it might take many years to finish
+- State-of-the-art - The PQC represents the state-of-the-art in cryptography and has been adopted by governments and industries worldwide
+- No-regret moves - Whether CRQC becomes a reality or not, many steps in the PQC migration are considered no-regret, in other words they are useful to execute either way, such as,
+    - Establishing cryptographic asset management
+    - Reviewing cryptographic policies & standards
+    - Assessing supply chain dependencies
+    - Conducting a risk assessment
+    - Estimating costs of the migration
+    - Assessing regulatory requirements
+    - Developing a backup plan
+    - Collaborating with other entities in the industry
+- Performance and cost will have a major impact on the migration. As you can see in the table below, the size of cryptographic keys and signatures of PQC algorithms (ML-DSA, SLH-DSA) is many times larger than those of conventional cryptography (RSA, ECC) which will have storage and cost implications on the systems and services charged for egress traffic (such as cloud) and for devices with limited storage, the size will also have impact on network optimization and fragmentation (exceeding the size of the MTU), signing and verification operations (measured in CPU cycles) is also much larger for PQC algorithms which will have impact on performance-constrained devices such as those used in OT. However, the performance metrics (sign, verify) should be taken with a grain of salt as they are subject to optimization and further development in the PQC space.
+- Cryptographic agility refers to the ability to adapt to risks surrounding cryptography with minimal effort, structuring technology, processes and policies such that cryptography can be used in efficient manner, cryptography can be updated, changed or completely replaced with minimal effort and minimal consequences such as a downtime.
+
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
