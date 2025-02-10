@@ -138,7 +138,7 @@ We might be a decade or two away from a practical CRQC, but the market moves for
 - In 2024, [NIST releases standards for PQC algorithms](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards), ML-KEM formerly CRYSTALS-Kyber, ML-DSA formerly CRYSTALS-Dilithium and SLH-DSA formerly Sphincs+
 - In 2024, [Google develops a 105-qubit quantum chip called Willow](https://blog.google/technology/research/google-willow-quantum-chip/)
 - [BouncyCastle](https://www.bouncycastle.org/documentation/specification_interoperability/#Post-Quantum-Algorithm-Support), a popular Java library supports PQC
-- [PQC migration handbook](https://english.aivd.nl/publications/publications/2024/12/3/the-pqc-migration-handbook) by General Intelligence and Security Service ([AIVD](https://english.aivd.nl/))
+- [PQC migration handbook](https://english.aivd.nl/publications/publications/2024/12/3/the-pqc-migration-handbook) by the General Intelligence and Security Service ([AIVD](https://english.aivd.nl/))
 - Microsoft resources, [Azure PQC](https://quantum.microsoft.com/)
 - Amazon resources, [AWS PQC](https://aws.amazon.com/security/post-quantum-cryptography/)
 - Google resources, [GCP PQC](https://cloud.google.com/security/resources/post-quantum-cryptography?hl=en)
