@@ -125,7 +125,7 @@ C. Executing the migration
 # Market trends and the current state of PQC
 We might be a decade or two away from a practical CRQC, but the market moves forward every year in the PQC space. See below,
 
-- IBM R&D has re-classified PQC from RESEARCH to IMPLEMENTATION & ENGINEERING
+- IBM R&D has re-classified PQC from **RESEARCH** to **IMPLEMENTATION & ENGINEERING**
 - In 2016, the Linux Foundation has started the [Open Quantum Safe](https://openquantumsafe.org/) open-source project and the [liboqs](https://openquantumsafe.org/liboqs/) library
 - In 2022, [Google supports PQC internally in ALTS](https://cloud.google.com/blog/products/identity-security/why-google-now-uses-post-quantum-cryptography-for-internal-comms)
 - In 2022, NSA has released [CNSA 2.0](https://en.wikipedia.org/wiki/Commercial_National_Security_Algorithm_Suite) mandating the use of PQC algorithms ([ML-KEM](https://csrc.nist.gov/pubs/fips/203/final), [ML-DSA](https://csrc.nist.gov/pubs/fips/204/final), [XMSS and LMS](https://csrc.nist.gov/pubs/sp/800/208/final)) to protect US national security systems by 2030
