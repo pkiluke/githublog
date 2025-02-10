@@ -122,6 +122,28 @@ C. Executing the migration
 - Migrating protocols
     - TLS, SSH, S/MIME, PGP, IPSec, X.509
 
+# Market trends and the current state of PQC
+We might be a decade or two away from a practical CRQC, but the market moves forward every year in the PQC space. See below,
+
+- IBM R&D has re-classified PQC from RESEARCH to IMPLEMENTATION & ENGINEERING
+- In 2016, the Linux Foundation has started the Open Quantum Safe open-source project and the liboqs library
+- In 2022, Google supports PQC internally in ALTS
+- In 2022, NSA has released CNSA 2.0 mandating the use of PQC algorithms (ML-KEM, ML-DSA, XMSS and LMS) to protect US national security systems by 2030
+- In 2023, Signal, a messaging protocol used in WhatsApp, has added the PQXDH key exchange algorithm based on ML-KEM
+- In 2024, Apple has introduced the PQ3 protocol based on ML-KEM to iMessage
+- In 2024, NIST releases standards for PQC algorithms, ML-KEM formerly CRYSTALS-Kyber, ML-DSA formerly CRYSTALS-Dilithium and SLH-DSA formerly Sphincs+
+- In 2024, Google develops a 105-qubit quantum chip called Willow
+- BouncyCastle, a popular Java library supports PQC
+- Microsoft resources, Azure PQC
+- Amazon resources, AWS PQC
+- Google resources, GCP PQC
+- IBM resources, IBM PQC
+- Cloudflare resources,
+    - Sizing up post-quantum signatures
+    - Deep dive into a post-quantum signature scheme
+    - The state of the post-quantum Internet
+    - A look at the latest post-quantum signature standardization candidates
+
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
