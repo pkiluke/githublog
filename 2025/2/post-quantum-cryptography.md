@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/pkiluke/publish/raw/master/ransomware/images/bg.jfif"/>
+<img src="https://github.com/pkiluke/publish/raw/master/2025/2/images/quantum-computer-background.jpg"/>
 </div>
 
 # Introduction
