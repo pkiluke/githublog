@@ -45,6 +45,13 @@ PQC to the rescue. Here are a few definitions and challenges arising from the us
 - Longer verification and signing times
 - Larger TLS handshakes and larger data throughput.
 
+# Navigating the migration
+Many assets are at risk of compromise by the CRQC, but the risks are challenging to quantify and difficult to predict because as of February 2025 there are no known CRQC sufficiently powerful to break the conventional cryptography and no definite timelines other than “as soon as possible” or “as soon as practicable” exist. Most estimates fall within the range of 5-25 years from now.
+
+From the perspective of risk, the risk of quantum computing is not on the CISO radar due to the fact that CISOs and other stakeholders focus on risks within a very short time horizon compared to the quantum computing timelines. For reference, the most visible areas of risk to the CISOs and other stakeholders are user awareness and data (cloud, AI).
+
+The following lists the main guiding principles, risks and pain points influencing the migration to PQC.
+
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
