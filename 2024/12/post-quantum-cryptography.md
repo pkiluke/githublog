@@ -28,8 +28,8 @@ In general, the higher the security level the more secure the encryption, see be
 
 In the context of quantum computing, there are two quantum algorithms and two categories of conventional cryptography,
 
-- Grover's algorithm breaks symmetric cryptography
-- Shor's algorithm breaks asymmetric cryptography
+- [Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) breaks [symmetric cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
+- [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) breaks [asymmetric cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
