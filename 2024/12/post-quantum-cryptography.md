@@ -18,6 +18,14 @@ In simple terms, the security of a cryptographic scheme (RSA, ECC, AES) is expre
 
 In general, the higher the security level the more secure the encryption, see below,
 
+| Scheme | Key length [bits] | Security level<br/>(conventional computing) [bits] | Security level<br/>(quantum computing) [bits] |
+|:---------:|:---------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+|  RSA-2048  |      2048       |                        112                         |                        112                         |
+|  ECC-256  |      3072       |                        128                         |                        112                         |
+|    ECC-384    |     224-255     |                        112                         |                        112                         |
+|    AES-128    |     256-383     |                        128                         |                        112                         |
+|    AES-256    |     384-511     |                        192                         |                        112                         |
+
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
   - identify data and communication channels protected
