@@ -20,11 +20,11 @@ In general, the higher the security level the more secure the encryption, see be
 
 | Scheme | Key length [bits] | Security level<br/>(conventional computing) [bits] | Security level<br/>(quantum computing) [bits] |
 |:---------:|:---------------:|:--------------------------------------------------:|:--------------------------------------------------:|
-|  RSA-2048  |      2048       |                        112                         |                        112                         |
-|  ECC-256  |      3072       |                        128                         |                        112                         |
-|    ECC-384    |     224-255     |                        112                         |                        112                         |
-|    AES-128    |     256-383     |                        128                         |                        112                         |
-|    AES-256    |     384-511     |                        192                         |                        112                         |
+|  RSA-2048  |      2048       |                        112                         |           <span style="color:red">0</pan>         |
+|  ECC-256  |      256       |                        128                         |                        0                         |
+|    ECC-384    |     284     |                        192                         |                        0                         |
+|    AES-128    |     128     |                        128                         |                        **64**                         |
+|    AES-256    |     256     |                        256                         |                        **128**                         |
 
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
