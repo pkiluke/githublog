@@ -1,15 +1,7 @@
 # Introduction
 Welcome dear readers,
 
-Cryptography is the mathematical method of protecting confidentiality and integrity of data that’s been deeply embedded
-into the world’s digital society at large since 1970s. For over 50 years RSA, ECC and DH have been at the pinnacle of
-commercial cryptography based on mathematical problems considered intractable by the computational resources at the
-time.
-In 1980s and 1990s scientists and academics started proposing combining computer science (classical computers, bits) and
-quantum mechanics (quantum computers, qubits).
-In and around the late 2010s the industry and academy started pursuing the engineering efforts of PQC (Post-Quantum
-Cryptography) in slowly developing and standardizing algorithms to resist the quantum computers.
-Today, we will talk about post-quantum cryptography, what it is and what challenges it brings.
+Today, I will introduce the foundations of post-quantum cryptography (hereafter referred to as PQC) and its implications to data protection. The PQC is one of the emerging technologies, by many considered to be to 2025 what AI was to 2024, that has a huge potential to impact, and by impact, I mean break, data confidentiality and data integrity.
 
 Enjoy the reading!
 
