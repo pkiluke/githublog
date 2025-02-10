@@ -108,22 +108,22 @@ A. Preparing for the migration
     - Compute the risk score
 
 B. Planning the migration
-- When to start the migration
+- **When to start the migration**
     - **Mosca's inequality**: X+Y < Z; X = how long must the data remain secure, Y = time needed to migrate to PQC, Z = when will CRQC become available; the closer X+Y is to Z the more urgent is the migration, if X+Y > Z then the data asset is already vulnerable to CRQC
-- Advice on migration planning
+- **Advice on migration planning**
     - Decide if cryptographic control must be replaced and what should it be replaced with
     - Decide order in which to migrate the data asset - confidentiality → integrity or integrity → confidentiality
-- Costs of the migration
+- **Costs of the migration**
     - Cost estimation
     - Resource allocation
 
 C. Executing the migration
-- Migration of symmetric cryptography
+- **Migration of symmetric cryptography**
     - No major effort is expected as symmetric cryptography is not considered vulnerable to CRQC
-- Migration of asymmetric cryptography in a hybrid deployment
+- **Migration of asymmetric cryptography in a hybrid deployment**
     - Hybrid deployment refers to using PQC and conventional cryptography in parallel within the same protocol
     - Mitigates the risk of undiscovered vulnerabilities in PQC, but increases the deployment complexity and attack surface
-- Migrating protocols
+- **Migrating protocols**
     - TLS, SSH, S/MIME, PGP, IPSec, X.509
 
 # Market trends and the current state of PQC
