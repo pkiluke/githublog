@@ -14,7 +14,7 @@ To put the security of conventional cryptography and the chaos in PQC in perspec
 
 As mentioned above, CRQC can solve certain mathematical problems much faster than conventional computers, these mathematical problems include [factoring large numbers](https://en.wikipedia.org/wiki/Integer_factorization) (RSA) and solving [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problems (Diffie-Hellman, ECC), which form the basis for many encryption schemes currently used today.
 
-In simple terms, the security of a cryptographic scheme (RSA, ECC, AES) is expressed as a [security level](https://en.wikipedia.org/wiki/Security_level) in bits, the security level determines how many operations the attacker has to perform to break the encryption, therefore a security level of 112 means the attacker needs to perform $2^112$ operations to break the encryption. Whether a single operation is adding two numbers together or something more advanced is beyond the scope of the article.
+In simple terms, the security of a cryptographic scheme (RSA, ECC, AES) is expressed as a [security level](https://en.wikipedia.org/wiki/Security_level) in bits, the security level determines how many operations the attacker has to perform to break the encryption, therefore a security level of 112 means the attacker needs to perform $2^{112}$ operations to break the encryption. Whether a single operation is adding two numbers together or something more advanced is beyond the scope of the article.
 
 In general, the higher the security level the more secure the encryption, see below,
 
