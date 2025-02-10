@@ -165,4 +165,4 @@ In January 2025, the US government (Biden administration) has released the Execu
 
 In other words, the US government agencies and their allies (customers who are doing business with the US government) need to be moving to the PQC as soon as possible.
 
-At the end of the day the only moving force is always the laws and regulations. The question is, what laws and regulations move ABB?
+At the end of the day the only moving force is always the laws and regulations. The question is, what laws and regulations move your organization?
