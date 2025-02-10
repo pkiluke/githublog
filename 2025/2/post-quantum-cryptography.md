@@ -23,12 +23,12 @@ In simple terms, the security of a cryptographic scheme (RSA, ECC, AES) is expre
 In general, the higher the security level the more secure the encryption, see below,
 
 | Scheme | Key length [bits] | Security level<br/>(conventional computing) [bits] | Security level<br/>(quantum computing) [bits] |
-|:---------:|:---------------:|:--------------------------------------------------:|:--------------------------------------------------:|
-|  RSA-2048  |      2048       |                        112                         |           $${\color{red}0}$$         |
-|  ECC-256  |      256       |                        128                         |                        $${\color{red}0}$$            |
-|    ECC-384    |     284     |                        192                         |                       $${\color{red}0}$$           |
-|    AES-128    |     128     |                        128                         |                       $${\color{red}64}$$           |
-|    AES-256    |     256     |                        256                         |                        $${\color{red}128}$$         |
+|:---:|:---:|:---:|:---:|
+|  RSA-2048  |  2048  |   112   |   $${\color{red}0}$$   |
+|  ECC-256   |  256   |   128   |   $${\color{red}0}$$   |
+|  ECC-384   |  284   |   192   |   $${\color{red}0}$$   |
+|  AES-128   |  128   |   128   |   $${\color{red}64}$$  |
+|  AES-256   |  256   |   256   |   $${\color{red}128}$$ |
 
 In the context of quantum computing, there are two quantum algorithms and two categories of conventional cryptography,
 
@@ -75,7 +75,7 @@ The following lists the main guiding principles, risks and pain points influenci
 | Scheme | Public key (pk)<br/>[bytes] | Signature (sig)<br/>[bytes] | Public key + signature<br/>[bytes] | Sign<br/>[CPU cycles] | Verify<br/>[CPU cycles] |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |  RSA-2048 |   272    |   256     |   528     |   27m         |   45k       |
-|  Ed25519  |   64     |   64      |   96      |   42k         |   130k      |
+|  EdDSA    |   64     |   64      |   96      |   42k         |   130k      |
 |  ML-DSA   |   1k-2k  |   2k-4k   |   3k-7k   |   333k-642k   |   118k-279k |
 |  SLH-DSA  |   32-64  |   7k-49k  |   7k-49k  |   239m-7000m  |   4m-19m    |
 
