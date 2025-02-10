@@ -28,8 +28,22 @@ In general, the higher the security level the more secure the encryption, see be
 
 In the context of quantum computing, there are two quantum algorithms and two categories of conventional cryptography,
 
-- [Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) breaks [symmetric cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)<br/>
+- [Grover's algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) breaks [symmetric cryptography](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
 - [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) breaks [asymmetric cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
+
+As shown in the table above, the Grover's algorithm halves the security level of symmetric encryption schemes and while the more conservative security experts recommend doubling the size of the symmetric keys to remain safe from CRQC, **symmetric cryptography** is expected to remain quantum safe without doubling the key size. On the other hand, the **asymmetric cryptography** is expected to be quantum vulnerable, in other words it is expected that CRQC will break **asymmetric cryptography**.
+
+PQC to the rescue. Here are a few definitions and challenges arising from the use of PQC,
+
+- State-of-the-art cryptography
+- Cryptographic algorithms resistant to CRQC
+- Different mathematics from conventional cryptography ([code-based](https://en.wikipedia.org/wiki/McEliece_cryptosystem), [lattice-based](https://en.wikipedia.org/wiki/Lattice-based_cryptography), [multivariate](https://en.wikipedia.org/wiki/Multivariate_cryptography), [hash-based](https://en.wikipedia.org/wiki/Hash-based_cryptography))
+- Developed in conventional programming languages (C, C++, Rust, Java)
+- Runs on conventional computers
+- Slower performance than conventional cryptography, approximately 10-20% slower
+- Larger cryptographic keys and signature sizes
+- Longer verification and signing times
+- Larger TLS handshakes and larger data throughput.
 
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
