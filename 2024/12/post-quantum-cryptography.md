@@ -21,8 +21,8 @@ In general, the higher the security level the more secure the encryption, see be
 | Scheme | Key length [bits] | Security level<br/>(conventional computing) [bits] | Security level<br/>(quantum computing) [bits] |
 |:---------:|:---------------:|:--------------------------------------------------:|:--------------------------------------------------:|
 |  RSA-2048  |      2048       |                        112                         |           $${\color{red}0}$$         |
-|  ECC-256  |      256       |                        128                         |                        0                         |
-|    ECC-384    |     284     |                        192                         |                        0                         |
+|  ECC-256  |      256       |                        128                         |                        $${\color{red}0}$$            |
+|    ECC-384    |     284     |                        192                         |                        $${\color{red}0}$$           |
 |    AES-128    |     128     |                        128                         |                        **64**                         |
 |    AES-256    |     256     |                        256                         |                        **128**                         |
 
