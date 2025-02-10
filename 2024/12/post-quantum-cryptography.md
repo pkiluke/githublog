@@ -128,21 +128,21 @@ We might be a decade or two away from a practical CRQC, but the market moves for
 - IBM R&D has re-classified PQC from RESEARCH to IMPLEMENTATION & ENGINEERING
 - In 2016, the Linux Foundation has started the Open Quantum Safe open-source project and the liboqs library
 - In 2022, Google supports PQC internally in ALTS
-- In 2022, NSA has released CNSA 2.0 mandating the use of PQC algorithms (ML-KEM, ML-DSA, XMSS and LMS) to protect US national security systems by 2030
-- In 2023, Signal, a messaging protocol used in WhatsApp, has added the PQXDH key exchange algorithm based on ML-KEM
-- In 2024, Apple has introduced the PQ3 protocol based on ML-KEM to iMessage
-- In 2024, NIST releases standards for PQC algorithms, ML-KEM formerly CRYSTALS-Kyber, ML-DSA formerly CRYSTALS-Dilithium and SLH-DSA formerly Sphincs+
-- In 2024, Google develops a 105-qubit quantum chip called Willow
-- BouncyCastle, a popular Java library supports PQC
-- Microsoft resources, Azure PQC
-- Amazon resources, AWS PQC
-- Google resources, GCP PQC
-- IBM resources, IBM PQC
+- In 2022, NSA has released [CNSA 2.0](https://en.wikipedia.org/wiki/Commercial_National_Security_Algorithm_Suite) mandating the use of PQC algorithms ([ML-KEM](https://csrc.nist.gov/pubs/fips/203/final), [ML-DSA](https://csrc.nist.gov/pubs/fips/204/final), [XMSS and LMS](https://csrc.nist.gov/pubs/sp/800/208/final)) to protect US national security systems by 2030
+- In 2023, [Signal](https://signal.org/), a messaging protocol used in WhatsApp, has added the [PQXDH](https://signal.org/docs/specifications/pqxdh/) key exchange algorithm based on ML-KEM
+- In 2024, Apple has introduced the [PQ3](https://security.apple.com/blog/imessage-pq3/) protocol based on ML-KEM to iMessage
+- In 2024, [NIST releases standards for PQC algorithms](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards), ML-KEM formerly CRYSTALS-Kyber, ML-DSA formerly CRYSTALS-Dilithium and SLH-DSA formerly Sphincs+
+- In 2024, [Google develops a 105-qubit quantum chip called Willow](https://blog.google/technology/research/google-willow-quantum-chip/)
+- [BouncyCastle](https://www.bouncycastle.org/documentation/specification_interoperability/#Post-Quantum-Algorithm-Support), a popular Java library supports PQC
+- Microsoft resources, [Azure PQC](https://quantum.microsoft.com/)
+- Amazon resources, [AWS PQC](https://aws.amazon.com/security/post-quantum-cryptography/)
+- Google resources, [GCP PQC](https://cloud.google.com/security/resources/post-quantum-cryptography?hl=en)
+- IBM resources, [IBM PQC](https://www.ibm.com/quantum/quantum-safe)
 - Cloudflare resources,
-    - Sizing up post-quantum signatures
-    - Deep dive into a post-quantum signature scheme
-    - The state of the post-quantum Internet
-    - A look at the latest post-quantum signature standardization candidates
+    - [Sizing up post-quantum signatures](https://blog.cloudflare.com/sizing-up-post-quantum-signatures/)
+    - [Deep dive into a post-quantum signature scheme](https://blog.cloudflare.com/post-quantum-signatures/)
+    - [The state of the post-quantum Internet](https://blog.cloudflare.com/pq-2024/)
+    - [A look at the latest post-quantum signature standardization candidates](https://blog.cloudflare.com/another-look-at-pq-signatures/)
 
 # Conclusion
 Besides the advancement by companies like Google, Microsoft, Amazon, Cloudflare, IBM, there are sector-specific legislations such as,
