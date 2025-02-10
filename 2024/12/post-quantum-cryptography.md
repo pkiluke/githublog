@@ -153,9 +153,9 @@ Besides the advancement by companies like Google, Microsoft, Amazon, Cloudflare,
 - Network and Information Systems (NIS) - the successor to NIS, NIS2, does specify the obligation to deploy proportional cryptographic measures, taking into account both an organization's exposure to risks and the state-of-the-art in cryptography
 - Commercial National Security Algorithm Suite (CNSA) - requires a specific set of cryptographic algorithms to be used for protecting US national security systems (NSS). CNSA 2.0 specifies four quantum-resistant public-key algorithms ML-KEM, ML-DSA, XMSS and LSS
 
-there are standardization bodies such as ISO/IEC, IETF, ETSI developing and updating standards to mandate the use of state-of-the-art cryptography and there are governments around the world including the EU Commission, Germany (BSI), France (ANSSI), Netherlands, the UK (UK-NCSC, GCHQ) and USA all pushing for the adoption of PQC.
+there are standardization bodies such as **ISO/IEC**, **IETF**, **ETSI** developing and updating standards to mandate the use of state-of-the-art cryptography and there are governments around the world including the **EU Commission**, **Germany (BSI)**, **France (ANSSI)**, **Netherlands**, **the UK (UK-NCSC, GCHQ)** and **USA** all pushing for the adoption of PQC.
 
-In January 2025, the US government (Biden administration) has released the Executive Order on Strengthening and Promoting Innovation in the Nation’s Cybersecurity that states,
+In January 2025, the US government (Biden administration) has released the [Executive Order on Strengthening and Promoting Innovation in the Nation’s Cybersecurity](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2025/01/15/fact-sheet-new-executive-order-on-strengthening-and-promoting-innovation-in-the-nations-cybersecurity/) that states,
 
 > (iii)  Agencies shall implement PQC key establishment or hybrid key establishment including a PQC algorithm as soon as practicable upon support being provided by network security products and services already deployed in their network architectures.
 
