@@ -83,76 +83,42 @@ The PQC migration comes down to three parts, the preparation, the planning and t
 
 A. Preparing for the migration
 - Inventory of all cryptographic assets used in the enterprise
-- Create an exhaustive detailed list of the use of cryptography, both hardware and software
-- Update cryptography policies & standards
-
-Define a strategy for cryptographic discovery (objective, scope, methodology, reporting, review)
-
-Inventory of all data assets (only a subset of data attributes)
-
-State of the data asset (data at-rest, data in-transit, data in-use)
-
-Location of the data asset (physical and logical)
-
-Value of the data asset (from the perspective of confidentiality, integrity and availability)
-
-Classification of the data asset
-
-Risk assessment for each data asset
-
-Identify the dependencies in the cryptography supply-chain
-
-List cryptography hardware and software products supplied by external vendors
-
-Maintain up to date vendor contact information
-
-Review vendor contracts
-
-Maintain communication with vendors on the progress of PQC in their respective products
-
-Risk assessment
-
-Assess weakness to CRQC
-
-Assess impact and determine impact score
-
-Assess migration effort to PQC
-
-Compute the risk score
-
-Planning the migration
-
-When to start the migration
-
-Mosca's inequality: X+Y < Z; X = how long must the data remain secure, Y = time needed to migrate to PQC, Z = when will CRQC become available; the closer X+Y is to Z the more urgent is the migration, if X+Y > Z then the data asset is already vulnerable to CRQC
-
-Advice on migration planning
-
-Decide if cryptographic control must be replaced and what should it be replaced with
-
-Decide order in which to migrate the data asset - confidentiality → integrity or integrity → confidentiality
-
-Costs of the migration
-
-Cost estimation
-
-Resource allocation
-
-Executing the migration
-
-Migration of symmetric cryptography
-
-No major effort is expected as symmetric cryptography is not considered vulnerable to CRQC
-
-Migration of asymmetric cryptography in a hybrid deployment
-
-Hybrid deployment refers to using PQC and conventional cryptography in parallel within the same protocol
-
-Mitigates the risk of undiscovered vulnerabilities in PQC, but increases the deployment complexity and attack surface
-
-Migrating protocols
-
-TLS, SSH, S/MIME, PGP, IPSec, X.509
+    - Create an exhaustive detailed list of the use of cryptography, both hardware and software
+    - Update cryptography policies & standards
+    - Define a strategy for cryptographic discovery (objective, scope, methodology, reporting, review)
+- Inventory of all data assets (only a subset of data attributes)
+    - State of the data asset (data at-rest, data in-transit, data in-use)
+    - Location of the data asset (physical and logical)
+    - Value of the data asset (from the perspective of confidentiality, integrity and availability)
+    - Classification of the data asset
+    - Risk assessment for each data asset
+- Identify the dependencies in the cryptography supply-chain
+    - List cryptography hardware and software products supplied by external vendors
+    - Maintain up to date vendor contact information
+    - Review vendor contracts
+    - Maintain communication with vendors on the progress of PQC in their respective products
+- Risk assessment
+    - Assess weakness to CRQC
+    - Assess impact and determine impact score
+    - Assess migration effort to PQC
+    - Compute the risk score
+B. Planning the migration
+- When to start the migration
+    - Mosca's inequality: X+Y < Z; X = how long must the data remain secure, Y = time needed to migrate to PQC, Z = when will CRQC become available; the closer X+Y is to Z the more urgent is the migration, if X+Y > Z then the data asset is already vulnerable to CRQC
+- Advice on migration planning
+    - Decide if cryptographic control must be replaced and what should it be replaced with
+    - Decide order in which to migrate the data asset - confidentiality → integrity or integrity → confidentiality
+- Costs of the migration
+    - Cost estimation
+    - Resource allocation
+C. Executing the migration
+- Migration of symmetric cryptography
+    - No major effort is expected as symmetric cryptography is not considered vulnerable to CRQC
+- Migration of asymmetric cryptography in a hybrid deployment
+    - Hybrid deployment refers to using PQC and conventional cryptography in parallel within the same protocol
+    - Mitigates the risk of undiscovered vulnerabilities in PQC, but increases the deployment complexity and attack surface
+- Migrating protocols
+    - TLS, SSH, S/MIME, PGP, IPSec, X.509
 
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
