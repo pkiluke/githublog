@@ -69,12 +69,12 @@ The following lists the main guiding principles, risks and pain points influenci
 - **Cryptographic agility** refers to the ability to adapt to risks surrounding cryptography with minimal effort, structuring technology, processes and policies such that cryptography can be used in efficient manner, cryptography can be updated, changed or completely replaced with minimal effort and minimal consequences such as a downtime.
 
 | Scheme | Public key (pk) [bytes] | Signature (sig) [bytes] | Public key + signature<br/>[bytes] |
-|:---------:|:---------------:|:--------------------------------------------------:|:--------------------------------------------------:|
-|  RSA-2048  |      2048       |                        112                         |           $${\color{red}0}$$         |
-|  ECC-256  |      256       |                        128                         |                        $${\color{red}0}$$            |
-|    ECC-384    |     284     |                        192                         |                        $${\color{red}0}$$           |
-|    AES-128    |     128     |                        128                         |                        **64**                         |
-|    AES-256    |     256     |                        256                         |                        **128**                         |
+|:---------:|:--------------------:|:--------------------------------------------------:|:--------------------------------------------------:|
+|  RSA-2048 |   272    |                        112                         |           $${\color{red}0}$$         |
+|  Ed25519  |   64     |                        128                         |                        $${\color{red}0}$$            |
+|  ML-DSA   |   1k-2k  |                        192                         |                        $${\color{red}0}$$           |
+|  SLH-DSA  |   32-64  |                        128                         |                        **64**                         |
+
 
 - Quantum vulnerability diagnosis
   - inventory of cryptographic primitives and protocols
