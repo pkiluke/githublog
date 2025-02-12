@@ -9,8 +9,8 @@ Today, I will introduce the foundations of [post-quantum cryptography](https://e
 
 Enjoy the reading!
 
-# A paradigm that breaks cryptography
-Quantum computing is a type of computing paradigm that utilizes the principles of quantum mechanics to process information. Quantum computers or more specifically cryptographically relevant quantum computers (hereafter referred to as CRQC), albeit still in the experimental and early development stages, have the potential to solve certain mathematical problems much faster than conventional computers.
+# A new way that breaks cryptography
+Quantum computing is a new way of computation that utilizes the principles of quantum mechanics to process information. Quantum computers or more specifically cryptographically relevant quantum computers (hereafter referred to as CRQC), albeit still in the experimental and early development stages, have the potential to solve certain mathematical problems much faster than conventional computers.
 
 In order to break conventional cryptography, you need a quantum computer (CRQC) with enough qubits and not only that, but with enough stable qubits. Quantum computers are extremely susceptible to thermal and electromagnetic interference (called decoherence) that results in high error rate (causing instability).
 
