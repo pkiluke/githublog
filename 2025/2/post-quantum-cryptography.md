@@ -131,6 +131,7 @@ We might be a decade or two away from a practical CRQC, but the market moves for
 
 - IBM R&D has re-classified PQC from **RESEARCH** to **IMPLEMENTATION & ENGINEERING**
 - In 2016, the Linux Foundation has started the [Open Quantum Safe](https://openquantumsafe.org/) open-source project and the [liboqs](https://openquantumsafe.org/liboqs/) library
+- In 2020, [NIST releases a standard for stateful hash-based signature schemes (XMSS, LMS)](https://csrc.nist.gov/News/2020/stateful-hash-based-signature-schemes-sp-800-208)
 - In 2022, [Google supports PQC internally in ALTS](https://cloud.google.com/blog/products/identity-security/why-google-now-uses-post-quantum-cryptography-for-internal-comms)
 - In 2022, NSA has released [CNSA 2.0](https://en.wikipedia.org/wiki/Commercial_National_Security_Algorithm_Suite) mandating the use of PQC algorithms ([ML-KEM](https://csrc.nist.gov/pubs/fips/203/final), [ML-DSA](https://csrc.nist.gov/pubs/fips/204/final), [XMSS and LMS](https://csrc.nist.gov/pubs/sp/800/208/final)) to protect US national security systems by 2030
 - In 2023, [Signal](https://signal.org/), a messaging protocol used in WhatsApp, has added the [PQXDH](https://signal.org/docs/specifications/pqxdh/) key exchange algorithm based on ML-KEM
