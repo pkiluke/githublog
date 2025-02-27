@@ -139,6 +139,7 @@ We might be a decade or two away from a practical CRQC, but the market moves for
 - In 2024, [NIST releases standards for PQC algorithms](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards (ML-KEM aka CRYSTALS-Kyber, ML-DSA aka CRYSTALS-Dilithium, SLH-DSA)), ML-KEM formerly CRYSTALS-Kyber, ML-DSA formerly CRYSTALS-Dilithium and SLH-DSA formerly Sphincs+
 - In 2024, [Google develops a 105-qubit quantum chip called Willow](https://blog.google/technology/research/google-willow-quantum-chip/)
 - In 2025, [Microsoft develops a new quantum chip called Majorana 1](https://news.microsoft.com/source/features/ai/microsofts-majorana-1-chip-carves-new-path-for-quantum-computing/)
+- In 2025, [the GSMA releases an impact study of PQC on IoT](https://www.gsma.com/solutions-and-impact/technologies/security/latest-news/post-quantum-cryptography-in-iot/)
 - [BouncyCastle](https://www.bouncycastle.org/documentation/specification_interoperability/#Post-Quantum-Algorithm-Support), a popular Java library supports PQC
 - [PQC migration handbook](https://english.aivd.nl/publications/publications/2024/12/3/the-pqc-migration-handbook) by the General Intelligence and Security Service ([AIVD](https://english.aivd.nl/))
 - Microsoft resources, [Azure PQC](https://quantum.microsoft.com/)
