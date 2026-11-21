@@ -151,11 +151,8 @@ XYZ application manager requests (2) SNOW: Internal XYZ SSL and submits the cert
 
 XYZ application manager receives the SSL/TLS certificate from XYZ PKI helpdesk (3) and installs it in the SaaS platform (1)
 
-
 Reference architecture - SSL/TLS certificate automation for Software as a Service
 To summarize, for XYZ Software as a Service, there is no certificate automation.
-
- 
 
 For high-resolution reference architecture designs - SSL/TLS certificate automation.
 
